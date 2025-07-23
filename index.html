@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Run Windows 11 ISO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Upload a Windows 11 ISO</h1>
+    <form action="https://YOUR-BACKEND-SERVER/upload" method="POST" enctype="multipart/form-data">
+      <input type="file" name="iso" accept=".iso" required />
+      <button type="submit">Upload & Boot</button>
+    </form>
+    <p>After uploading, you will be redirected to the remote VM session.</p>
+  </div>
+</body>
+</html>
 
